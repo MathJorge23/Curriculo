@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo Matheus Jorge</title>
+    <style>
+        :root {
+            --primary: #2c3e50;
+            --secondary: #3498db;
+            --dark: #2d3436;
+            --light: #f5f6fa;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0;
+            color: var(--dark);
+            background-color: #f9f9f9;
+        }
+        .resume {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            grid-gap: 30px;
+            background: white;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            margin: 30px;
+        }
+        .sidebar {
+            background: var(--primary);
+            color: white;
+            padding: 30px;
+        }
+        .main {
+            padding: 30px;
+        }
+        h1 {
+            margin: 0;
+            font-size: 28px;
+            color: white;
+        }
+        .subtitle {
+            color: var(--secondary);
+            margin-top: 5px;
+            font-size: 16px;
+        }
+        h2 {
+            color: var(--primary);
+            border-bottom: 2px solid var(--secondary);
+            padding-bottom: 5px;
+            font-size: 20px;
+        }
+        .contact-info {
+            margin: 20px 0;
+        }
+        .contact-info p {
+            margin: 5px 0;
+            display: flex;
+            align-items: center;
+        }
+        .contact-info i {
+            margin-right: 10px;
+        }
+        .skills {
+            margin: 20px 0;
+        }
+        .skill {
+            margin-bottom: 10px;
+        }
+        .skill-name {
+            margin-bottom: 5px;
+        }
+        .skill-bar {
+            height: 5px;
+            background: var(--secondary);
+            border-radius: 3px;
+        }
+        .job {
+            margin-bottom: 20px;
+        }
+        .job-title {
+            font-weight: bold;
+            font-size: 18px;
+        }
+        .company {
+            color: var(--primary);
+        }
+        .date {
+            color: #636e72;
+            font-size: 14px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        .two-columns {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="resume">
+        <div class="sidebar">
+            <h1>Matheus Jorge da Silva</h1>
+            <p class="subtitle">Analista de Sistemas</p>
+            
+            <div class="contact-info">
+                <p><i>📧</i> mathjor.silva@gmail.com</p>
+                <p><i>📱</i> (15) 99129-2773</p>
+                <p><i>📍</i> Sorocaba/SP</p>
+            </div>
+            
+            <h2>Habilidades Técnicas</h2>
+            <div class="skills">
+                <div class="skill">
+                    <div class="skill-name">Banco de Dados SQL</div>
+                    <div class="skill-bar" style="width: 40%"></div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name">Front End</div>
+                    <div class="skill-bar" style="width:45%"></div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name">Lógica de Programação</div>
+                    <div class="skill-bar" style="width: 60%"></div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name">Java</div>
+                    <div class="skill-bar" style="width: 40%"></div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name">Python</div>
+                    <div class="skill-bar" style="width: 40%"></div>
+                </div>
+            </div>
+            
+            <h2>Habilidades Interpessoais</h2>
+            <ul>
+                <li>Trabalho em Equipe</li>
+                <li>Pensamento Crítico</li>
+                <li>Inovação</li>
+                <li>Desejo de Crescimento</li>
+            </ul>
+            
+            <h2>Idiomas</h2>
+            <p>Inglês - Pré-Intermediário</p>
+            <p>Português - Nativo</p>
+        </div>
+        
+        <div class="main">
+            <h2>Resumo Profissional</h2>
+            <p>Profissional formado em Análise e Desenvolvimento de Sistemas, atuando no suporte à uma grande empresa do ramo da saúde. Busco oportunidades para aprimorar minhas habilidades em desenvolvimento ou análise de dados.</p>
+            
+            <h2>Experiência Profissional</h2>
+            <div class="job">
+                <div class="job-title">Analista de Suporte</div>
+                <div class="company">Unimed de Vitória</div>
+                <div class="date">2024 - Atualmente</div>
+                <ul>
+                    <li>Suporte nível 2</li>
+                    <li>Auxílio a usuários na identificação e correção de bugs</li>
+                    <li>Geração de relatórios e criação de documentos para melhorias</li>
+                    <li>Criação de objetos via banco de dados</li>
+                </ul>
+            </div>
+            
+            <div class="job">
+                <div class="job-title">Estagiário</div>
+                <div class="company">Itix</div>
+                <div class="date">2023 - 2024</div>
+                <ul>
+                    <li>Trabalho em cooperação com equipes de suporte e desenvolvimento</li>
+                </ul>
+            </div>
+            
+            <div class="job">
+                <div class="job-title">Programador CNC</div>
+                <div class="company">Artuzo e Muquem Usinagem e Ferramentaria</div>
+                <div class="date">2019 - 2024</div>
+                <ul>
+                    <li>Programação em linguagens diversas</li>
+                    <li>Ajuste de parâmetros para melhor execução do programa</li>
+                    <li>Diagnóstico e correção de erros</li>
+                </ul>
+            </div>
+            
+            <div class="two-columns">
+                <div>
+                    <h2>Formação Acadêmica</h2>
+                    <p><strong>Tecnologia em Análise e Desenvolvimento de Sistemas</strong><br>
+                    UNIFacens<br>
+                    2024</p>
+                    
+                    <p><strong>Tecnologia em Fabricação Mecânica</strong><br>
+                    Faculdade de Tecnologia José Crespo Gonzales<br>
+                    2020</p>
+                </div>
+                
+                <div>
+                    <h2>Cursos de Extensão</h2>
+                    <ul>
+                        <li>Testes Unitários em Java</li>
+                        <li>Oracle PL/SQL</li>
+                        <li>Python Completo</li>
+                        <li>Postman - Testes Automatizados</li>
+                        <li>Front End Completo</li>
+                        <li>Formação Java</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
