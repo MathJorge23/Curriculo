@@ -8,7 +8,7 @@ Sou formado em **Análise e Desenvolvimento de Sistemas**, atuando como **Analis
 
 ## 📄 Visualização
 
-Para visualizar o currículo, basta abrir o arquivo [`index.html`](./index.html) no navegador ou acessar o conteúdo via GitHub Pages (se publicado).
+Para visualizar o currículo, basta abrir o arquivo [`index.html`](./index.html) no navegador ou acessar o conteúdo via GitHub Pages https://mathjorge23.github.io/Curriculo/
 
 ## 🧠 Habilidades Técnicas
 
